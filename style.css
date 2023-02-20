@@ -1,0 +1,158 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  background: #121214;
+  font-family: "Roboto", sans-serif;
+  margin: 0 auto;
+}
+
+header {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  height: 100px;
+  background: #202024;
+  align-items: center;
+  margin-bottom: 16px;
+}
+
+.title {
+  color: #e1e1e6;
+}
+
+.container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.user-container {
+  width: 256px;
+  height: 294px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: #202024;
+  margin: 16px;
+  border-radius: 8px;
+}
+
+.text-container {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.text-container h2 {
+  color: #e1e1e6;
+  margin-block: 05px;
+}
+
+.text-container p {
+  color: #8d8d99;
+}
+
+.user-background {
+  height: 100px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.background-img {
+  border-radius: 8px 8px 0 0;
+}
+
+.photo-user {
+  width: 70px;
+  height: 70px;
+  margin-top: -35px;
+  border: 3px solid #202024;
+  box-shadow: 0px 0px 0px 2px rgba(0, 179, 126, 1);
+  border-radius: 8px;
+}
+
+.frame-container {
+  width: 832px;
+  height: 621px;
+  background: #202024;
+  margin: 16px;
+  border-radius: 8px;
+  padding: 30px;
+}
+
+.btn-container {
+  width: 192px;
+  height: 50px;
+  margin-top: 35px;
+  border-radius: 8px;
+  border: 1px solid #00b37e;
+  background-color: #202024;
+  color: #00b37e;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 16px;
+}
+
+.btn-container img {
+  margin-right: 10px;
+}
+
+.btn-container:hover {
+  background-color: #00b37e;
+  color: #e1e1e6;
+}
+
+.container-perfil {
+  max-height: 80px;
+  display: flex;
+  flex-direction: row;
+}
+
+.avatar-perfil {
+  margin-left: 16px;
+  color: #e1e1e6;
+}
+
+.photo-user-container {
+  width: 70px;
+  height: 70px;
+  border: 3px solid #202024;
+  box-shadow: 0px 0px 0px 2px rgba(0, 179, 126, 1);
+  border-radius: 8px;
+}
+
+.container-perfil p {
+  color: #8d8d99;
+  font-size: 14px;
+}
+
+.publicado {
+  color: #8d8d99;
+  font-size: 12px;
+  width: 100px;
+}
+
+.box-title {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.container-text {
+  color: #e1e1e6;
+  padding-top: 20px;
+}
