@@ -119,10 +119,10 @@ header {
   max-height: 80px;
   display: flex;
   flex-direction: row;
+  gap: 10px;
 }
 
 .avatar-perfil {
-  margin-left: 16px;
   color: #e1e1e6;
 }
 
@@ -276,13 +276,13 @@ textarea:focus {
     display: flex;
     width: 100%;
     justify-content: center;
-    align-items: center;
+    align-items: start;
     flex-direction: column;
     gap: 4px;
   }
 
   .container-perfil {
-    margin-left: 4px;
+    gap: 10px;
   }
 
   .publicado {
